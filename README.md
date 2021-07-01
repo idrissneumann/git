@@ -6,7 +6,7 @@
 
 ## Documentation
 
-Pour avoir l'essentiel de ce qu'il faut savoir pour manipuler git correctement, il faut se référer à cette documentation: https://gitlab.comwork.io/comwork/wiki/-/blob/master/git.md
+Pour avoir l'essentiel de ce qu'il faut savoir pour manipuler git correctement, il faut se référer à [cette documentation](./git.md).
 
 Si vous n'y avez pas accès, demander les accès à idriss.neumann@comwork.io (il est possible que l'on vous envoi un export pdf en fonction de si vous faite partie des effectifs de comwork ou non).
 
