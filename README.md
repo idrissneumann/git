@@ -57,3 +57,18 @@ Correspond au ticket [issue #2](./https://gitlab.comwork.io/comwork_training/git
 * Renommer le message du commit en remplaçant le commentaire de l'issue #1 par issue #2 en utilisant le rebase interactif
 * Pusher et observez le résultat sur le ticket [issue #2](./https://gitlab.comwork.io/comwork_training/git/-/issues/2)
 * Ouvrir une merge request avec `prod` et l'affecter au formatteur
+
+## Issue 3: exécuter le script dans une CI/CD
+
+Correspond au ticket [issue #3](./https://gitlab.comwork.io/comwork_training/git/-/issues/3).
+
+* Créer une nouvelle branche à partir de `main`
+* Faire la configuration gitlab-ci pour que le script `le_code_source.sh` soit exécuté selon les règles suivantes:
+
+** Tag du runner: `rpi`
+** Uniquement sur les push sur `main` ou sur `prod`
+** Uniquement si le fichier `le_code_source.sh` a changé
+
+## Fin de la scéance
+
+On va merger vos merge request et vérifier que la CI/CD exécute bien ce qu'on lui a demandé.
