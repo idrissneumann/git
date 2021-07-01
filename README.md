@@ -10,7 +10,11 @@ Pour avoir l'essentiel de ce qu'il faut savoir pour manipuler git correctement, 
 
 Si vous n'y avez pas accès, demander les accès à idriss.neumann@comwork.io (il est possible que l'on vous envoi un export pdf en fonction de si vous faite partie des effectifs de comwork ou non).
 
-## Cas pratique : résoudre un conflit
+## Cas pratique
+
+## Issue 1: résoudre un conflit
+
+Correspond au ticket [issue #1](./https://gitlab.comwork.io/comwork_training/git/-/issues/1).
 
 Créez votre branche de référence depuis depuis la branche `main`:
 
@@ -34,8 +38,22 @@ Remplacez ensuite "Idriss Neumann" dans le script `le_code_source.sh` et pushez 
 
 ```shell
 $ git add le_code_source.sh
-$ git commit -m "Modification {nom prenom}"
+$ git commit -m "Issue #1 - modification {nom prenom}"
 $ git push origin conflict_to_merge_{votre nom}
 ```
 
+Vérifier que votre commentaire arrive bien dans l'[issue #1](./https://gitlab.comwork.io/comwork_training/git/-/issues/1)
+
 Ouvrez ensuite une merge request pour merger `conflict_to_merge_{votre nom}` dans `main_{votre nom}` et essayez de merger en résolvant correctement les conflits.
+
+Une fois les conflits résolu, affectez cette merge request au formatteur
+
+## Issue 2: faire un report et renommer les commit
+
+Correspond au ticket [issue #2](./https://gitlab.comwork.io/comwork_training/git/-/issues/2).
+
+* Créer une nouvelle branche `prod_{votre nom}` à partir de la branche `prod`
+* Reporter les modifications en utilisant `cherry-pick`
+* Renommer le message du commit en remplaçant le commentaire de l'issue #1 par issue #2 en utilisant le rebase interactif
+* Pusher et observez le résultat sur le ticket [issue #2](./https://gitlab.comwork.io/comwork_training/git/-/issues/2)
+* Ouvrir une merge request avec `prod` et l'affecter au formatteur
