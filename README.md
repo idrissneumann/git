@@ -12,7 +12,7 @@ Si vous n'y avez pas accès, demander les accès à idriss.neumann@comwork.io (i
 
 ## Cas pratique
 
-## Issue 1: résoudre un conflit
+### Issue 1: résoudre un conflit
 
 Correspond au ticket [issue #1](./https://gitlab.comwork.io/comwork_training/git/-/issues/1).
 
@@ -48,7 +48,7 @@ Ouvrez ensuite une merge request pour merger `conflict_to_merge_{votre nom}` dan
 
 Une fois les conflits résolu, affectez cette merge request au formatteur
 
-## Issue 2: faire un report et renommer les commit
+### Issue 2: faire un report et renommer les commit
 
 Correspond au ticket [issue #2](./https://gitlab.comwork.io/comwork_training/git/-/issues/2).
 
@@ -58,7 +58,7 @@ Correspond au ticket [issue #2](./https://gitlab.comwork.io/comwork_training/git
 * Pusher et observez le résultat sur le ticket [issue #2](./https://gitlab.comwork.io/comwork_training/git/-/issues/2)
 * Ouvrir une merge request avec `prod` et l'affecter au formatteur
 
-## Issue 3: exécuter le script dans une CI/CD
+### Issue 3: exécuter le script dans une CI/CD
 
 Correspond au ticket [issue #3](./https://gitlab.comwork.io/comwork_training/git/-/issues/3).
 
@@ -69,6 +69,6 @@ Correspond au ticket [issue #3](./https://gitlab.comwork.io/comwork_training/git
 ** Uniquement sur les push sur `main` ou sur `prod`
 ** Uniquement si le fichier `le_code_source.sh` a changé
 
-## Fin de la scéance
+### Fin de la scéance
 
 On va merger vos merge request et vérifier que la CI/CD exécute bien ce qu'on lui a demandé.
