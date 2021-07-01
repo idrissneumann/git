@@ -64,10 +64,9 @@ Correspond au ticket [issue #3](./https://gitlab.comwork.io/comwork_training/git
 
 * Créer une nouvelle branche à partir de `main`
 * Faire la configuration gitlab-ci pour que le script `le_code_source.sh` soit exécuté selon les règles suivantes:
-
-** Tag du runner: `rpi`
-** Uniquement sur les push sur `main` ou sur `prod`
-** Uniquement si le fichier `le_code_source.sh` a changé
+  * Tag du runner: `rpi`
+  * Uniquement sur les push sur `main` ou sur `prod`
+  * Uniquement si le fichier `le_code_source.sh` a changé
 
 ### Fin de la scéance
 
