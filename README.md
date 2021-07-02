@@ -10,6 +10,8 @@ Pour avoir l'essentiel de ce qu'il faut savoir pour manipuler git correctement, 
 
 Pour savoir l'essentiel sur les méthodes agiles et Scrum, vous pouvez vous référer à [mon cours](https://ineumann.developpez.com/tutoriels/alm/agile_scrum/) sur developpez.com.
 
+Les [slides de cette formation](./formation.pdf).
+
 ## Cas pratique
 
 ### Issue 1: résoudre un conflit
