@@ -253,7 +253,7 @@ git push origin 0000
 ####################
  
 # User 3
-git pull --rebase origin NUMERIQUE-0000; echo "modif branch conflit" >> BRANCH; git add BRANCH; git commit -m "modif branch conflit"; git push origin 0000
+git pull --rebase origin 0000; echo "modif branch conflit" >> BRANCH; git add BRANCH; git commit -m "modif branch conflit"; git push origin 0000
  
 # User 2
 echo "modif branch conflit bis" >> BRANCH; git add BRANCH; git commit -m "modif branch conflit bis"; git pull --rebase origin 0000
