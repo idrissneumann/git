@@ -4,6 +4,11 @@
 
 [[_TOC_]]
 
+## Dépôts de sources
+
+* Dépôt principal: https://gitlab.comwork.io/comwork_training/git
+* Miroir sur github: https://github.com/idrissneumann/git.git
+* Miroir sur gitlab: https://gitlab.com/ineumann/git.git
 ## Documentation
 
 Pour avoir l'essentiel de ce qu'il faut savoir pour manipuler git correctement, il faut se référer à [cette documentation](./git.md).
