@@ -207,7 +207,7 @@ Voici le scénario de la démo Git :
 ###########################
  
 # User 1
-mkdir poc-git; cd poc-git; git init; touch README; touch BRANCH; git add README BRANCH; git commit -m 'first commit'; git remote add origin ssh://git@ci.docapost.io:8006/pcombescot/poc-git.git; git push -u origin master
+mkdir poc-git; cd poc-git; git init; touch README; touch BRANCH; git add README BRANCH; git commit -m 'first commit'; git remote add origin https://gitlab.comwork.io/comwork_training/git; git push -u origin master
  
  
 ####################
@@ -215,13 +215,13 @@ mkdir poc-git; cd poc-git; git init; touch README; touch BRANCH; git add README 
 ####################
  
 # User 2
-git clone ssh://git@ci.docapost.io:8006/pcombescot/poc-git.git poc-git-2; cd poc-git-2; git checkout -b 0000; echo "modif branch" >> BRANCH; git add BRANCH; git commit -m "modif branch"; git push origin 0000
+git clone https://gitlab.comwork.io/comwork_training/git poc-git-2; cd poc-git-2; git checkout -b 0000; echo "modif branch" >> BRANCH; git add BRANCH; git commit -m "modif branch"; git push origin 0000
  
 # User 1
 echo "modif master" >> README; git add README; git commit -m "modif master"; git push origin master; echo "modif bis" >> README; git add README; git commit -m "modif bis"; git push origin master
  
 # User 3
-git clone ssh://git@ci.docapost.io:8006/pcombescot/poc-git.git poc-git-3; cd poc-git-3; git checkout 0000; echo "modif branch bis" >> BRANCH; git add BRANCH; git commit -m "modif branch bis"
+git clone https://gitlab.comwork.io/comwork_training/git poc-git-3; cd poc-git-3; git checkout 0000; echo "modif branch bis" >> BRANCH; git add BRANCH; git commit -m "modif branch bis"
  
 # User 2
 git checkout master; git pull --rebase origin master; git checkout 0000; git pull --rebase origin 0000; git merge master
