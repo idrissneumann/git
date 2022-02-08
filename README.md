@@ -4,11 +4,16 @@
 
 [[_TOC_]]
 
+## Périmètre
+
+Dans cette formation vous apprendrez à utiliser git en ligne de commande et à travailler avec gitlab en équipe dans des vrais process de qualité d'entreprise (Sprints Agiles, Code reviews, gestion des conflits, ré-écriture et remise en forme de l'historique, CI/CD, etc).
+
 ## Dépôts de sources
 
 * Dépôt principal: https://gitlab.comwork.io/comwork_training/git
 * Miroir sur github: https://github.com/idrissneumann/git.git
 * Miroir sur gitlab: https://gitlab.com/ineumann/git.git
+
 ## Documentation
 
 Pour avoir l'essentiel de ce qu'il faut savoir pour manipuler git correctement, il faut se référer à [cette documentation](./git.md).
