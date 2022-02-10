@@ -13,6 +13,7 @@ Dans cette formation vous apprendrez à utiliser git en ligne de commande et à 
 * Dépôt principal: https://gitlab.comwork.io/comwork_training/git
 * Miroir sur github: https://github.com/idrissneumann/git.git
 * Miroir sur gitlab: https://gitlab.com/ineumann/git.git
+* Miroir sur bitbucket: https://bitbucket.org/idrissneumann/git.git
 
 ## Documentation
 
