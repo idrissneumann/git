@@ -367,3 +367,9 @@ git log
 ```shell
 git push origin <la branche> -f
 ```
+
+## Liens externes
+
+Une autre antisèche git de Christophe Chaudier encore mieux faite pour synthétiser tout ce qu'on a vu ici: 
+
+[![antiseche_git_c_chaudier](images/antiseche_git_c_chaudier.png)](https://froggit.fr/communaute/)
