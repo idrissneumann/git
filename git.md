@@ -12,7 +12,9 @@ git clone <url du repository>
 
 ## Création d'une branche
 
-Toutes les branches doivent partir de `main` (autrefois `master`). Idéalement on peut pusher la branche cela permet de visualiser sur GitLab qu'elle a bien été créée à partir de `main` et qu'à sa création elle est à jour avec `main`.
+Toutes les branches doivent partir de `main` (autrefois `master` mais vous pouvez appeler votre branche par défaut protégée comme vous voulez, dans ce tutoriel on va rester sur `main`). 
+
+Idéalement on peut pusher la branche cela permet de visualiser sur GitLab qu'elle a bien été créée à partir de `main` et qu'à sa création elle est à jour avec `main`.
 
 ```shell
 git pull --rebase origin main
@@ -206,7 +208,7 @@ Voici le scénario de la démo Git :
 ###########################
  
 # User 1
-mkdir poc-git; cd poc-git; git init; touch README; touch BRANCH; git add README BRANCH; git commit -m 'first commit'; git remote add origin https://gitlab.comwork.io/comwork_training/git; git push -u origin main
+mkdir poc-git; cd poc-git; git init; touch README; touch BRANCH; git add README BRANCH; git commit -m 'first commit'; git remote add origin https://gitlab.comwork.io/comwork_public/training/git; git push -u origin main
  
  
 ####################
@@ -214,13 +216,13 @@ mkdir poc-git; cd poc-git; git init; touch README; touch BRANCH; git add README 
 ####################
  
 # User 2
-git clone https://gitlab.comwork.io/comwork_training/git poc-git-2; cd poc-git-2; git checkout -b 0000; echo "modif branch" >> BRANCH; git add BRANCH; git commit -m "modif branch"; git push origin 0000
+git clone https://gitlab.comwork.io/comwork_public/training/git poc-git-2; cd poc-git-2; git checkout -b 0000; echo "modif branch" >> BRANCH; git add BRANCH; git commit -m "modif branch"; git push origin 0000
  
 # User 1
 echo "modif main" >> README; git add README; git commit -m "modif main"; git push origin main; echo "modif bis" >> README; git add README; git commit -m "modif bis"; git push origin main
  
 # User 3
-git clone https://gitlab.comwork.io/comwork_training/git poc-git-3; cd poc-git-3; git checkout 0000; echo "modif branch bis" >> BRANCH; git add BRANCH; git commit -m "modif branch bis"
+git clone https://gitlab.comwork.io/comwork_public/training/git poc-git-3; cd poc-git-3; git checkout 0000; echo "modif branch bis" >> BRANCH; git add BRANCH; git commit -m "modif branch bis"
  
 # User 2
 git checkout main; git pull --rebase origin main; git checkout 0000; git pull --rebase origin 0000; git merge main
