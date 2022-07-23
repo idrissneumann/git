@@ -315,7 +315,7 @@ Il peut arriver qu'on ait besoin de fusionner des commits ou de les ré-écrire 
 
 * Il manque le numéro de la branche ou du ticket dans le commentaire (ou le commentaire ne suit pas une sémantique obligatoire)
 * Il y a beaucoup trop de commits car beaucoup de retours traité dans la merge request et on risque de perdre la lisibilité de l'historique
-* Il faut qu'on soit capable de reporter les modifications sur une autre branche avec `git cherry-pick`
+* Il faut qu'on soit capable de facilement reporter les modifications sur une autre branche avec `git cherry-pick` ou de les rollbacker (`git revert`)
 * Etc
 
 Pour cela il existe un magnifique outil qui s'appelle le "rebase interactif". Cette procédure ne doit être utilisée toutefois que si les conditions suivantes sont ré-unies:
