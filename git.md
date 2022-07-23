@@ -187,10 +187,10 @@ git merge <numéro de la branche ou ticket>
 git push origin main
 ```
 
-Lorsque le merge s'est bien déroulé, il faut supprimer la branche dans GitLab.
+Vous pouvez ensuite supprimer la branche distante :
 
 ```shell
-git push origin --delete <numéro de la branche ou ticket>
+git push -d origin <numéro de la branche ou ticket>
 ```
 
 ## Démo
