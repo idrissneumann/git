@@ -313,7 +313,7 @@ git reset --hard origin/<numéro de la branche ou ticket>
 
 Il peut arriver qu'on ait besoin de fusionner des commits ou de les ré-écrire pour plusieurs raisons. Par exemple :
 
-* Il manque le numéro de la branche ou du ticket dans le commentaire
+* Il manque le numéro de la branche ou du ticket dans le commentaire (ou le commentaire ne suit pas une sémantique obligatoire)
 * Il y a beaucoup trop de commits car beaucoup de retours traité dans la merge request et on risque de perdre la lisibilité de l'historique
 * Il faut qu'on soit capable de reporter les modifications sur une autre branche avec `git cherry-pick`
 * Etc
