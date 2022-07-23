@@ -174,7 +174,7 @@ git reset --hard origin/main # reset à partir de la branche distante
 
 ## Merge manuel d'une branche vers main
 
-Tout les développeurs n'ont pas les droits pour faire cette opération. Il faut normalement passer par une merge request sur gitlab.
+Tous les développeurs n'ont pas les droits pour faire cette opération. Il faut normalement passer par une "merge request" ou une "pull request" sur votre provider git (Gitlab, Github, Gitea, ou autres).
 
 Avant d'effectuer le merge local il faut avoir mis `main` à jour pour pouvoir faire le push de ce commit de merge immédiatement après.
 
@@ -340,7 +340,7 @@ Sauvegarder
 
 Puis ré-écrire le message du commit de résultat avec un message qui résume l'ensemble de la feature un peu mieux.
 
-N.B: faire apparaitre le numéro des tickets ou issues (avec un `#` devant lorsque ce sont des issues de gitlab ou github pour que ces derniers rappatrient directement les commentaires des commits dans les issues en question).
+N.B: faire apparaitre le numéro des tickets ou issues (avec un `#` devant lorsque ce sont des issues de gitlab/github (ou autres) pour que ces derniers rappatrient directement les commentaires des commits dans les issues en question).
 
 4. Vérifier que l'historique est correcte :
 
@@ -348,7 +348,7 @@ N.B: faire apparaitre le numéro des tickets ou issues (avec un `#` devant lorsq
 git log
 ```
 
-5. Pusher puis vérifier sur gitlab :
+5. Pusher puis vérifier sur gitlab/github (ou autres) :
 
 ```shell
 git push origin <la branche> -f
