@@ -42,6 +42,16 @@ git commit -m "<numéro de la branche ou ticket> commentaire"
 git push origin <numéro de la branche ou ticket>
 ```
 
+## Supprimer ou renommer une branche
+
+```shell
+git checkout your_branch
+git checkout -b your_new_branchname
+git push origin your_new_branchname
+git branch -D your_branch # supprimer l'ancienne branche localement
+git push -d origin your_branch # supprimer sur le serveur distant
+```
+
 ## Mettre de changement de côté
 
 ```shell
@@ -273,17 +283,6 @@ git push origin 0000
 # User 1
 echo "modif ter" >> README; git add README; git commit -m "modif ter"; git push origin main
 ==>> Merge request: Accept Merge Request
-```
-
-## Basculer une branche sur une autre
-
-Si on se trouve dans le cas ou une US a été basculé vers une autre nouvelle US, il sera utile de créer une nouvelle branche qui continue à "Tracker" l'ancienne pour garder l'historique complet.
-=> Il s'agit de la même opération que renommer une branche.
-
-```shell
-git branch new-branch-name origin/old-branch-name
-git push origin --set-upstream new-branch-name
-git push origin :old-branch-name
 ```
 
 ## Commit et push de modification sur une branche
