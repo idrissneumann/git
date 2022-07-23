@@ -80,7 +80,7 @@ Voici un exemple avec visual studio code:
 
 * Cliquer sur `Accept Current Change` si votre version locale est plus à jour que celle de la branche de référence (`main`)
 
-* Cliquer sur l'un des deux et re-modifiez manuellement derrière si vous devez avoir les deux codes en même temps.
+* Cliquer sur `Accept Both Changes` et re-modifiez manuellement derrière si vous devez avoir les deux codes en même temps.
 
 Repassez derrière et refaite des tests pour vérifier qu'il n'y a pas de régression.
 
@@ -176,7 +176,7 @@ Voici un exemple avec visual studio code:
 
 * Cliquer sur `Accept Current Change` si votre version locale est plus à jour que celle de la branche de référence (`main`)
 
-* Cliquer sur l'un des deux et re-modifiez manuellement derrière si vous devez avoir les deux codes en même temps.
+* Cliquer sur `Accept Both Changes` et re-modifiez manuellement derrière si vous devez avoir les deux codes en même temps.
 
 Repassez derrière et refaite des tests pour vérifier qu'il n'y a pas de régression.
 
