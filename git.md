@@ -42,7 +42,9 @@ git commit -m "<numéro de la branche ou ticket> commentaire"
 git push origin <numéro de la branche ou ticket>
 ```
 
-## Supprimer ou renommer une branche
+## Renommer une branche
+
+Vous vous êtes trompé de nom ? Pas de panique.
 
 ```shell
 git checkout your_branch
